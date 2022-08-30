@@ -7,6 +7,11 @@ ruby "3.0.1"
 # React front-end App
 gem 'rack-cors'
 
+# # All our configuration will be done by UNIX environment
+# # we will use lograge to handle them for development
+# # and test
+# gem 'lograge'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
