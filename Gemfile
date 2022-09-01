@@ -7,10 +7,10 @@ ruby "3.0.1"
 # React front-end App
 gem 'rack-cors'
 
-# # All our configuration will be done by UNIX environment
-# # we will use lograge to handle them for development
-# # and test
-# gem 'lograge'
+# All our configuration will be done by UNIX environment
+# we will use lograge to handle them for development
+# and test
+gem 'lograge'
 
 # Using serachkick as our search engine interface
 # over elasticsearch

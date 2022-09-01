@@ -1,7 +1,7 @@
 class Api::V1::SearchBooksController < ApplicationController
   def create
-    @result = Book.send("find_by", params[:query_type], params[:query])
+    @result = Book.search(params[:query])
     
-    render json: @result 
+    render json: @result
   end
 end
