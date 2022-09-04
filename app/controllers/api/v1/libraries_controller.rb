@@ -1,4 +1,4 @@
-class LibrariesController < ApplicationController
+class Api::V1::LibrariesController < ApplicationController
   before_action :set_library, only: %i[ show update destroy ]
 
   # GET /libraries

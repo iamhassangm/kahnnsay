@@ -41,7 +41,7 @@ class Api::V1::BooksController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_book
-      @book = Book.find(params[:id])
+      @book = Book.find_with_libraries(params[:id])
     end
 
     # Only allow a list of trusted parameters through.
