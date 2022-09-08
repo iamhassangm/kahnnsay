@@ -13,9 +13,9 @@ gem 'rack-cors'
 gem 'lograge'
 
 # Using serachkick as our search engine interface
-# over elasticsearch
+# over opensearch
 gem "searchkick"
-gem "elasticsearch", "<= 7.17.4"
+gem "opensearch-ruby"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
