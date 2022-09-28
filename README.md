@@ -22,3 +22,9 @@ A Search Engine to find what you are looking for all over the city.
 	in the UNIX environment
 * Rails logging uses lograge. `bin/setup help`
 	can tell you how to see this locally
+	
+## Goals
+What feature set will declare this project to be complete for the first phase.
+* Should be able to search books
+* Should be able to view library details
+* Should be able to browse library books

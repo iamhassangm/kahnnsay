@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :books, only: [ :index, :show ]
       resources :search_books, only: [ :create ]
+      resources :libraries, only: [ :show ]
     end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
