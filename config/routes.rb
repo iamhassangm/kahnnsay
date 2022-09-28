@@ -8,7 +8,7 @@ Rails.application.routes.draw do
       resources :search_books, only: [ :create ]
       resources :libraries, only: [ :show ] do
         scope module: 'libraries' do
-          resources :books, only: [ :index ]
+          resources :book_ids, only: [ :index ]
         end
       end
     end

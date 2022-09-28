@@ -1,8 +1,7 @@
-class Api::V1::Libraries::BooksController < ApplicationController
+class Api::V1::Libraries::BookIdsController < ApplicationController
   before_action :set_books, only: %i[ index ]
-  
   def index
-    render json: @books
+    render json: @books.ids
   end
   
   private
