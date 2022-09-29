@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_04_051549) do
+ActiveRecord::Schema[7.0].define(version: 2022_09_29_071121) do
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "isbn"
@@ -31,6 +31,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_04_051549) do
     t.integer "location_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "membership"
     t.index ["location_id"], name: "index_libraries_on_location_id"
   end
 
